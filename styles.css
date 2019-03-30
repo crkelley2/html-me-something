@@ -1,28 +1,43 @@
-html {
-    font-family: sans-serif;
+body {
+    width: 100%;
+    max-width: 1024px;
+    background-color: cornflowerblue;
 }
-    body {
-        width: 100%;
-        background-color: cadetblue;
+
+header,
+main,
+footer {
+    background-color: cadetblue;
+    font-size: 1.6em;
+}
+header h1 {
+    text-align: center;
+    font-size: 18 pt;
+    color: brown;
     }
-        header h1 {
-            text-align: center;
-            font-size: 18 pt;
-            color: red;
-        }
-        main h2 {
-            text-align: center;
-            font-size: 14 pt;
-            color: red;
-            text-decoration: underline;
-        }
-        main p {
-            font-size: 12 pt;
-            color: black;
-        }
-        main img {
-            width: 100%;
-        }
-        main figcaption {
-            text-emphasis: italic;
-        }
+h2 {
+    text-align: center;
+    font-size: 14 pt;
+    color: brown;
+    text-decoration: underline;
+    }
+p {
+    font-size: 12 pt;
+    color: black;
+    }
+img {
+    width: 100%;
+    }
+
+figure {
+    text-align: center;
+}
+figcaption {
+    font-style: italic;
+    }
+
+footer {
+    text-align: center;
+    padding: 3em;
+}
+
