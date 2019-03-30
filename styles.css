@@ -10,6 +10,7 @@ main,
 footer {
     border-style: inset;
     border-width: 1em;
+    border-top-width: 2em;
     background-color: #83adb5;
     font-size: 1.6em;
 }
@@ -50,6 +51,7 @@ footer {
     padding: 2em;
     border-style: inset;
     border-width: 1em;
+    border-top-width: 2em;
 }
 
 #internal-list {
