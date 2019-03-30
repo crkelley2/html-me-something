@@ -1,6 +1,7 @@
 body {
     width: 100%;
     max-width: 1024px;
+    margin: 0 auto;
     background-color: #2e4045;
 }
 
@@ -12,16 +13,20 @@ footer {
 }
 header h1 {
     text-align: center;
-    font-size: 18 pt;
+    padding: 0.5em;
+    font-size: 2.2em;
     color: #5e3c58;
     }
 h2 {
+    margin-top: 1em;
+    padding-top: 1em;
     text-align: center;
     font-size: 14 pt;
     color: #5e3c58;
     text-decoration: underline;
     }
 p {
+    margin: 1.5em;
     font-size: 12 pt;
     color: black;
     }
@@ -34,10 +39,22 @@ figure {
 }
 figcaption {
     font-style: italic;
+    font-size: 0.7em;
     }
 
 footer {
-    text-align: center;
-    padding: 3em;
+    padding: 2em;
 }
 
+#internal-list {
+    padding: 0;
+    display: inline-block;
+    margin-left: 1.5em;
+    margin-right: 0.5em;
+    font-size: 0.75em;
+
+}
+.copy {
+    text-align: left;
+    font-size: 0.6em;
+}
